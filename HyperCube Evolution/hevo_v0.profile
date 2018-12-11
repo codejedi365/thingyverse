@@ -1,8 +1,8 @@
 _description: Imported from HEVO_v0.ini on 2018-07-08 12:59
 _display_name: HEVO_v0
-bottom_layer_speed: 20
+bottom_layer_speed: 24
 bottom_thickness: 0.3
-brim_line_count: 10
+brim_line_count: 7
 cool_head_lift: false
 cool_min_feedrate: 10
 cool_min_layer_time: 5
@@ -116,7 +116,7 @@ filament_diameter:
 - false
 - false
 - false
-filament_flow: 110.0
+filament_flow: 112.0
 fill_density: 25
 fill_overlap: 15
 first_layer_width_factor: 100
@@ -133,9 +133,9 @@ ooze_shield: false
 outer_shell_speed: 0.0
 overlap_dual: 0.15
 perimeter_before_infill: false
-platform_adhesion: brim
+platform_adhesion: none
 print_bed_temperature: 70
-print_speed: 50
+print_speed: 70
 print_temperature:
 - 205
 - false
@@ -152,14 +152,14 @@ raft_margin: 5.0
 raft_surface_layers: 2
 raft_surface_linewidth: 0.4
 raft_surface_thickness: 0.27
-retraction_amount: 3
+retraction_amount: 2.5
 retraction_combing: all
 retraction_dual_amount: 16.5
-retraction_enable: true
+retraction_enable: false
 retraction_hop: 0.0
 retraction_min_travel: 1.5
 retraction_minimal_extrusion: 0.02
-retraction_speed: 60
+retraction_speed: 75
 skirt_gap: 3.0
 skirt_line_count: true
 skirt_minimal_length: 150.0
@@ -199,7 +199,7 @@ start_gcode:
 
   G92 E0                  ;zero the extruded length
 
-  G1 F200 E3              ;extrude 3mm of feed stock
+  G1 F500 E4              ;extrude 4mm of feed stock
 
   G92 E0                  ;zero the extruded length again
 
