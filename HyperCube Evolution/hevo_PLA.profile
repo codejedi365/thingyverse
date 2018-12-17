@@ -1,5 +1,5 @@
 _description: Updated 2018-12-16 21:49
-_display_name: HEVO_v0
+_display_name: HEVO_PLA
 bottom_layer_speed: 24
 bottom_thickness: 0.3
 brim_line_count: 7
