@@ -1,4 +1,4 @@
-_description: Imported from HEVO_v0.ini on 2018-07-08 12:59
+_description: Updated 2018-12-16 21:49
 _display_name: HEVO_v0
 bottom_layer_speed: 24
 bottom_thickness: 0.3
@@ -109,7 +109,7 @@ end_gcode:
   ;{profile_string}'
 fan_enabled: true
 fan_full_height: 0.8
-fan_speed: 50
+fan_speed: 100
 fan_speed_max: 100
 filament_diameter:
 - 1.75
@@ -152,10 +152,10 @@ raft_margin: 5.0
 raft_surface_layers: 2
 raft_surface_linewidth: 0.4
 raft_surface_thickness: 0.27
-retraction_amount: 2.5
+retraction_amount: 0.7
 retraction_combing: all
 retraction_dual_amount: 16.5
-retraction_enable: false
+retraction_enable: true
 retraction_hop: 0.0
 retraction_min_travel: 1.5
 retraction_minimal_extrusion: 0.02
@@ -407,6 +407,6 @@ support_type: lines
 support_xy_distance: 0.7
 support_z_distance: 0.15
 travel_speed: 150
-wall_thickness: 1.2
-wipe_tower: false
+wall_thickness: 1.4
+wipe_tower: true
 wipe_tower_volume: 15
